@@ -1,0 +1,44 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#titlebox {
+  align-self: center;
+  padding: 100px;
+  border-style: double;
+  border-color: grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: 'Ceviche One', Cursive;
+}
+
+#headertitle {
+  text-shadow: 0px 2px darkgrey;
+  margin: 0.1em;
+}
+
+#headersubtitle {
+  margin: 0.2em;
+  text-align: center;
+}
+
+#bodygrid {
+  display: grid;
+  grid-template-columns: 2fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: "main main features";
+  grid-template-areas: "main main features";
+}
+
+#features {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#main {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
