@@ -27,19 +27,14 @@
 
 #bodygrid {
   display: grid;
-  width: 1104.110px;
-  grid-template-columns: 2fr, 1fr;
-  grid-template-rows: 1fr, 1fr;
-  grid-template-areas: "main main features";
-  grid-template-areas: "main main features";
+  grid-template-columns: 0.5fr 0.5fr 0.9fr 1fr 0.5fr;
+  grid-template-areas: ". . main features ."
 }
 
 #features {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-area: features;
 }
 
 #main {
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-area: main;
 }
