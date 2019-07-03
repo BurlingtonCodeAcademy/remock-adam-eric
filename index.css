@@ -38,10 +38,6 @@
 #quote {
   grid-area: quote;
   justify-self: center;
-  border-style: solid;
-  border-color: grey;
-  border-left: none;
-  border-right: none;
   position: relative;
   text-align: center;
 }
