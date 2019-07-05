@@ -267,7 +267,6 @@ a {
   border-color: grey;
   border-left: none;
   border-right: none;
-  padding: 0.2em;
 }
 
 .sidephoto2 > img {
@@ -287,8 +286,4 @@ a {
 
 #features > p {
   display: inline-block;
-}
-
-/*#features > #test {
-
 }
