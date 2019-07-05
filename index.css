@@ -267,6 +267,7 @@ a {
   border-color: grey;
   border-left: none;
   border-right: none;
+  float: left;
   padding: 0.2em;
 }
 
@@ -276,6 +277,7 @@ a {
   border-color: grey;
   border-left: none;
   border-right: none;
+  float: left;
   padding: 0.2em;
 }
 
@@ -288,6 +290,7 @@ a {
 #features > p {
   display: inline-block;
 }
+
 
 /*#features > #test {
 
