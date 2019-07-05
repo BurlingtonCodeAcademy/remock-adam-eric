@@ -246,8 +246,7 @@ a {
 }
 
 #features > .sidephoto1 {
-  padding: 1em;
-  padding-left: 0;
+  padding: 2px;
   border-style: solid;
   border-color: grey;
   border-top: none;
@@ -257,33 +256,15 @@ a {
 }
 
 #features > .sidephoto2 {
-  padding: 1em;
-  padding-left: 0;
+  padding: 10px;
 }
 
-.sidephoto1 > img {
-  border-style: solid;
-  border-width: 1px;
-  border-color: grey;
-  border-left: none;
-  border-right: none;
+.sidephoto1 > p > img {
+  border-width:3px;  
+  border-style:inset;
 }
 
-.sidephoto2 > img {
-  border-style: solid;
-  border-width: 1px;
-  border-color: grey;
-  border-left: none;
-  border-right: none;
-  padding: 0.2em;
-}
-
-#features > #sidefloat {
-  float: left;
-  clear: left;
-  padding: 0 20px 20px 0;
-}
-
-#features > p {
-  display: inline-block;
+#trickyphoto {
+  border-width:3px;  
+  border-style:inset;
 }
