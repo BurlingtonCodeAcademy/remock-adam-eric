@@ -259,12 +259,38 @@ a {
   padding: 10px;
 }
 
-.sidephoto1 > p > img {
-  border-width:3px;  
-  border-style:inset;
+.sidephoto1 > img {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-left: none;
+  border-right: none;
+  float: left;
+  padding: 0.2em;
+}
+
+.sidephoto2 > img {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-left: none;
+  border-right: none;
+  float: left;
+  padding: 0.2em;
+}
+
+#features > #sidefloat {
+  float: left;
+  clear: left;
+  padding: 0 20px 20px 0;
 }
 
 #trickyphoto {
   border-width:3px;  
   border-style:inset;
+}
+
+
+/*#features > #test {
+
 }
