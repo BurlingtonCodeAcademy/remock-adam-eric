@@ -281,5 +281,14 @@ a {
 
 #features > #sidefloat {
   float: left;
+  clear: left;
   padding: 0 20px 20px 0;
+}
+
+#features > p {
+  display: inline-block;
+}
+
+/*#features > #test {
+
 }
